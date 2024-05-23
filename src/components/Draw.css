@@ -1,0 +1,37 @@
+.draw{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: auto;
+    width: 100%;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), #eddbd1);
+    padding: 0 5% 10% ;
+    z-index: 1;
+    overflow: auto;
+    flex-grow: 1;
+}
+.h{
+    font-size: 22px;
+    color: red;
+    align-self: start;
+}
+.drawdon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media only screen and (max-width: 480px){
+    .draw{
+        max-width: 480px;
+        height: auto;
+        padding-bottom: 20%;
+    }
+    .h{
+        margin-top: 22%;
+        font-weight: bold;
+        margin-right: 5%;
+    }
+    .drawdon{
+        flex-direction: column;
+    }
+}

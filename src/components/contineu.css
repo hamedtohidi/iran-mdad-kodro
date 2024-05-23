@@ -1,0 +1,55 @@
+.contineu {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(21, 31, 32, 1);
+  padding: 4%;
+  width: 100%;
+}
+.text1 {
+  display: flex;
+  justify-content: end;
+  color: red;
+  font-size: 22px;
+  padding-right: 2%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+.Services {
+  width: 14%;
+  height: 54px;
+  align-self: center;
+  font-size: 22px;
+  color: #fff;
+  background-color: rgba(21, 31, 32, 1);
+  border: 1px solid #fff;
+  margin-top: 2%;
+  border-radius: 5px;
+}
+
+.Services:hover {
+  color: #000;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) {
+  .row {
+    max-width: 480px;
+    flex-direction: column;
+    margin-left: 5%;
+  }
+  .text1{
+    margin-right: 3%;
+    font-weight: bold;
+  }
+  .Services {
+    width: 42%;
+    border-radius: 5px;
+    margin-top: 4%;
+  }
+
+}

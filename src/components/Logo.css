@@ -1,0 +1,53 @@
+.log {
+    position: relative;
+    height: 291px;
+}
+
+.logo {
+    position: relative;
+    bottom: -2rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 82%;
+    
+}
+.logo1{
+    display: none;
+}
+
+.svg {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+.bacg{
+    display: flex;
+    justify-content: center;
+    background: radial-gradient(circle at center, rgba(255, 255, 255, 0.8), #eddbd1);
+    margin-top: -5px;
+}
+@media only screen and (max-width: 480px){
+    .logo1 {
+        display: block;
+        height: 600px;
+        position: relative;
+        bottom: -2rem;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 79%;
+        margin-top: 29%;
+    }
+    .logo{
+        display: none;
+    }
+    .bacg{
+        justify-content: center;
+    }
+    .log{
+        height: 500px; 
+        width: 100%;
+    }
+
+}

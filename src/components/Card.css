@@ -1,0 +1,74 @@
+.under {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(21, 31, 32, 1);
+    margin-right: 5%;
+    width: 466px;
+    overflow: hidden;
+    align-items: center;
+}
+
+h4 {
+    color: red;
+    font-size: 22px;
+    align-self: center;
+}
+
+/* این قسمت برای فیکوس مردن عکس هست زمانی مه موس روش میرود */
+.image-container {
+    overflow: hidden;
+    width: 440px;
+    height: 332px;
+}
+
+.conphoto {
+    display: flex;
+    width: 440px;
+    height: 332px;
+    margin-top: 5%;
+    transition: transform .1s;
+    overflow: hidden;
+}
+
+.conphoto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.conphoto:hover {
+    transform: scale(1.1);
+    transform-origin: top;
+}
+
+/* تا این قسمت */
+.textkhadamat {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 440px;
+    padding: 0 6% 1% 4%;
+}
+
+.textmcanic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    width: 440px;
+}
+
+@media only screen and (max-width: 480px) {
+    .under {
+        width: 400px;
+    }
+
+    .textmcanic {
+        height: 58px;
+    }
+    h4 {
+        margin-top: 6%;
+        font-size: 18px;
+        font-weight: normal;
+    }
+}

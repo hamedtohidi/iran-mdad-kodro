@@ -1,0 +1,32 @@
+.photo{
+    position: relative;
+}
+.mechanicwebp{
+    width: 100%;
+}
+.overlay-text {
+    position: absolute;
+    top: 388px;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.mechanicwebp1{
+    display: none;
+}
+@media only screen and (max-width: 480px){
+    .mechanicwebp{
+        display: none;
+    }
+    .mechanicwebp1{
+        display: block;
+      width: 100%;
+    }
+    .overlay-text{
+        font-size: 20px;
+        top: 398px;
+        left: 82px;
+        transform: translate(0, 0);
+    }
+
+}

@@ -1,0 +1,445 @@
+.foter {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: rgba(21 31 32);
+    flex-direction: column;
+    background-image: url('../components/image/setting (1).png');
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+    padding-bottom: 3%;
+}
+
+.setting {
+    width: 10%;
+    height: 18%;
+    align-self: end;
+    margin-top: 4%;
+    margin-right: 9%;
+    padding-bottom: 6%;
+}
+
+.Description {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    height: auto;
+}
+
+.setting1 {
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    border-left: 2px solid #fff;
+    margin-right: 10%;
+    justify-content: space-between;
+    height: 317px;
+}
+
+.setting5 {
+    display: flex;
+    flex-direction: column;
+    width: 17%;
+    border-left: 2px solid #fff;
+    margin-right: 3%;
+    justify-content: space-between;
+    height: 317px;
+}
+
+.setting2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 15%;
+    width: 63%;
+}
+
+.setting7 {
+    font-size: 22px;
+    color: #fff;
+    margin-top: -5rem;
+}
+
+.setting3 {
+    font-size: 22px;
+    color: #fff;
+    margin-top: -5rem;
+    margin-right: 29rem;
+}
+
+.pfont {
+    color: rgb(186 186 199);
+    font-size: 18px;
+    line-height: 2;
+    margin-top: 1%;
+    font-weight: bold;
+}
+
+.pfont9 {
+    color: rgb(186 186 199);
+    font-size: 18px;
+    line-height: 2;
+    margin-top: 1%;
+    font-weight: bold;
+
+}
+
+.pfont1 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 2;
+    color: rgb(186 186 199);
+    font-weight: bold;
+}
+
+.pfont3 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 2;
+    margin-top: 0rem;
+    color: rgb(186 186 199);
+    font-weight: bold;
+}
+
+.pfont2 {
+    color: #fff;
+    font-size: 18px;
+    line-height: 2;
+    margin-bottom: 10rem;
+    color: rgb(186 186 199);
+    font-weight: bold;
+
+}
+
+.phone1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0rem;
+    font-weight: bold;
+
+}
+
+.phone2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+}
+
+.number1 {
+    border: none;
+    background: none;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.setting4 {
+    display: flex;
+    flex-direction: column;
+    width: 6%;
+}
+
+.setting6 {
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    margin-top: 0rem;
+}
+
+.massage {
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    width: 40%;
+    z-index: 9999;
+}
+
+.par8 {
+    display: none;
+}
+
+.a {
+    color: red;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.Descrip {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.written1 {
+    display: none;
+}
+
+.written3 {
+    display: none;
+}
+
+.written5 {
+    display: none;
+
+}
+
+.written7 {
+    display: none;
+}
+
+.written9 {
+    display: none;
+}
+
+.written11 {
+    display: none;
+}
+
+.written13 {
+    display: none;
+}
+
+.written15 {
+    display: none;
+}
+
+.written17 {
+    display: none;
+}
+
+.written19 {
+    display: none;
+}
+
+.written21 {
+    display: none;
+}
+
+.written23 {
+    display: none;
+}
+
+.written25 {
+    display: none;
+}
+
+.handelphone {
+    display: none;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .foter {
+        background-size: 100% auto;
+        padding-bottom: 0;
+    }
+
+    .foter3 {
+        line-height: 1;
+    }
+
+    .setting {
+        align-self: center;
+        width: 19%;
+        margin-top: 12%;
+        margin-left: 4%;
+    }
+
+    .setting5 {
+        align-self: center;
+        border-left: none;
+        width: 45%;
+        order: 2;
+
+    }
+
+    .Descrip {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        order: 3;
+    }
+
+    .pfont {
+        line-height: 1;
+        margin-top: 1rem;
+    }
+
+    .pfont9 {
+        line-height: 2;
+        margin-top: 14rem;
+        width: 6rem;
+    }
+
+    .pfont1 {
+        width: 9rem;
+    }
+
+    .Description {
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .setting1 {
+        justify-content: center;
+        width: 71%;
+        order: 1;
+        margin-top: -2rem;
+    }
+
+    .phonewebp {
+        width: 77%;
+    }
+
+    .written {
+        display: none;
+    }
+
+    .written1 {
+        display: block;
+        margin-right: 2rem;
+    }
+
+    .written2 {
+        display: none;
+    }
+
+    .written3 {
+        display: block;
+        margin-right: 1rem;
+    }
+
+    .written4 {
+        display: none;
+    }
+
+    .written5 {
+        display: block;
+        margin-right: 12%;
+    }
+
+    .written6 {
+        display: none;
+    }
+
+    .written7 {
+        display: block;
+        margin-right: 3rem;
+    }
+
+    .written8 {
+        display: none;
+    }
+
+    .written9 {
+        display: block;
+        margin-right: 2rem;
+    }
+
+    .written10 {
+        display: none;
+    }
+
+    .written11 {
+        display: block;
+        margin-right: -1rem;
+        border-bottom: 1px solid #fff;
+        width: 96%;
+        padding-bottom: 20%;
+    }
+
+    .written12 {
+        display: none;
+    }
+
+    .written13 {
+        display: block;
+        margin-right: 7%;
+    }
+
+    .written14 {
+        display: none;
+    }
+
+    .written15 {
+        display: block;
+        margin-right: -2%;
+    }
+
+    .written16 {
+        display: none;
+    }
+
+    .written17 {
+        display: block;
+        margin-right: 1%;
+    }
+
+    .written18 {
+        display: none;
+    }
+
+    .written19 {
+        display: block;
+        margin-right: 2%;
+    }
+
+    .written20 {
+        display: none;
+    }
+
+    .written21 {
+        display: block;
+        margin-right: -2rem;
+    }
+
+    .written22 {
+        display: none;
+    }
+
+    .written23 {
+        display: block;
+        margin-right: -17%;
+    }
+
+    .written24 {
+        display: none;
+    }
+
+    .written25 {
+        display: block;
+        margin-right: -45%;
+    }
+
+    .a {
+        font-size: 18px;
+        margin-top: -1rem;
+        margin-left: 2rem;
+    }
+
+    .setting7 {
+        margin-top: -2rem;
+
+    }
+
+    .setting3 {
+        margin-right: 16rem;
+        margin-top: 9rem;
+    }
+
+    .handelphone {
+        width: 100%;
+        height: 50px;
+        background-color: rgb(45 182 66);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        margin-top: 3rem;
+        position: fixed;
+        z-index: 9999;
+        bottom: 0;
+    }
+}

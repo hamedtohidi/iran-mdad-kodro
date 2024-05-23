@@ -1,0 +1,114 @@
+.saidbar{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(21, 31, 32, 1);
+    position: fixed;
+    z-index: 5;
+    display: none;
+}
+.service1{
+    background-color: rgba(21, 31, 32, 1);
+    border-bottom: 1px solid rgb(55 65 81);
+    font-family: 'BYekan+', sans-serif;
+    font-size: 27px;
+    color: #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    padding-bottom: 6%;
+    padding: 7% 9%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.home1{
+    background-color: rgba(21, 31, 32, 1);
+    border-bottom: 1px solid rgb(55 65 81);
+    font-family: 'BYekan+', sans-serif;
+    font-size: 27px;
+    color: #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    padding-bottom: 6%;
+    padding: 7% 9%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+    font-weight: bold;
+}
+.quesction1{
+    background-color: rgba(21, 31, 32, 1);
+    border-bottom: 1px solid rgb(55 65 81);
+    font-family: 'BYekan+', sans-serif;
+    font-size: 27px;
+    color: #fff;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    padding-bottom: 6%;
+    padding: 7% 9%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.quesction2{
+    background-color: rgba(21, 31, 32, 1);
+    border: none;
+    font-family: 'BYekan+', sans-serif;
+    font-size: 27px;
+    color: #fff;
+    width: 100%;
+    padding-bottom: 6%;
+    padding: 7% 9%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+    font-weight: bold;
+}
+#close{
+    font-size: 24px;
+    color: #fff;
+    padding-right: 9%;
+    margin-bottom: 25%;
+    padding-top: 11%;
+    font-weight: lighter;
+}
+.service1, .home1, .quesction1, .quesction2{
+    cursor: pointer;
+}
+.service1:hover, .home1:hover, .quesction1:hover, .quesction2:hover{
+    background-color: rgb(21, 48, 4);
+}
+#close:hover{
+    color: red;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) {
+    .saidbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 50%;
+        height: 100%;
+        right: 0;
+    direction: rtl;
+    }
+    .service1:hover, .home1:hover, .quesction1:hover, .quesction2:hover {
+        background-color: rgb(21, 48, 4);
+        cursor: pointer;
+    }
+    #close :hover{
+        color: red;
+        cursor: pointer;
+    }
+}
